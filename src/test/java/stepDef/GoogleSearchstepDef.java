@@ -37,7 +37,7 @@ public class GoogleSearchstepDef {
 	@Then("Should display Java result page")
 	public void should_display_java_result_page() {
 		Assert.assertEquals(driver.getTitle(), "Java Tutorial - Google Search");
-	   
+	   System.out.println("added by tester 1" + driver.getTitle());
 	}
 
 
